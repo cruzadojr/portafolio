@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Jesús Rodrigo">
+    <meta name="description" content="Portafolio de desarrollo web de Jesús Rodrigo">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device width, initial-scale=1">
+    <!-- Título -->
+    <title>Jesús Rodrigo | Portafolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/porta.jpg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">   
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Letras google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/porta.jpg" width="50" alt="logo portafolio" class="rounded-image">
+            </a> 
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencias">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Seccion Perfil -->
+    <section class="perfil align-items-stretch">
+      <div class="perfil-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="perfil-imagen-perfil rounded-circle" src="./assets/img/jesu.jpg" alt="foto de jesús">
+        <h1>Hola, soy Jesús Rodrigo</h1>
+        <h2>Portafolio Sitio Web</h2>
+      </div>
+        
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Jesús Rodrigo</h2>
+        <p class="seccion-texto">Soy estudiante de la carrera Informática Mención Ciberseguridad en el Centro de Formación Técnica de la Región de Valparaíso y mi aprendizaje se ha enfocado en algunos lenguajes que contemplan la creación de páginas webs y base de datos. He aprendido a manejar entornos de desarrollo web como lo son Html, Css, Javascript y Bootstrap de manera eficiente para realizar proyectos en páginas web.</p>
+        <img  class="logito" src="./assets/img/cft.jpg" alt="logoCft">
+      </div>
+    </section>
+
+    <!-- Division -->
+    <section class="division seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+           <!-- Datos Personales -->
+           <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-circle"></i>
+            <p class="division-titulo">Datos Personales</p>
+            <p><strong>Telefono:</strong> +56985220879 <br> <strong>Email:</strong>  jexurodrigo@gmail.com <br> <strong>Dirección: </strong> Avda. Laguna de la luz, Valparaíso!</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Fono</span>
+              <span class="badge text-bg-primary">Correo</span>
+              <span class="badge text-bg-primary">Dirección</span>
+            </div>
+           </div>
+           <!-- Intereses -->
+           <div class="columna col-12 col-md-4">
+            <i class="bi bi-emoji-grin"></i>
+            <p class="division-titulo">Intereses</p>
+            <p>Me gusta la música, las peliculas, las series, aprender a programar y diferentes areas de informática desarrollando en un buen pc!</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Música</span>
+              <span class="badge text-bg-primary">Películas</span>
+              <span class="badge text-bg-primary">Informática</span>
+            </div>
+           </div>
+           <!-- Estudiante -->
+           <div class="columna col-12 col-md-4">
+            <i class="bi bi-book-half"></i>
+            <p class="division-titulo">Estudios</p>
+            <p>Mi enfoque se centra ahora en el área de la informática es por eso que me proyecto en la mejora continua por aprender. 
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">MySql</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado ...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/Proyecto 1.PNG" alt="Proyecto curriculum">
+              <div class="overlay">
+                <p>Proyecto Curriculum</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/primer_curriculum/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/primer_curriculum.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/Proyecto 2.PNG" alt="Proyecto curriculum">
+              <div class="overlay">
+                <p>Proyecto Landing</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/primer_landing/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/primer_landing.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/Proyecto 3.PNG" alt="Proyecto curriculum">
+              <div class="overlay">
+                <p>Proyecto Iguana</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/iguana/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/iguana.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/Proyecto 4.PNG" alt="Proyecto curriculum">
+              <div class="overlay">
+                <p>Proyecto Cuppon</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/cuppon/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/cuppon.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/grid.png" alt="imagen grid">
+              <div class="overlay">
+                <p>Proyecto Grid</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/primer-grid/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/primer-grid" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/query.png" alt="imagen query">
+              <div class="overlay">
+                <p>Proyecto Media Query</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/query/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/query" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/animacion.png" alt="imagen animacion">
+              <div class="overlay">
+                <p>Proyecto Animacion</p>
+                <div class="iconos-contenedor">
+                  <a href="https://cruzadojr.github.io/animaci-n/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://github.com/cruzadojr/animaci-n" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <a href="https://gitlab.com/jexu" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver mi Gitlab
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Página de ayuda para programación en lenguajes</li>
+          </a>
+          <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Framework Bootstrap para desarrollo web</li>
+          </a>
+          <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Página para descargar muchas fuentes para tu código</li>
+          </a>
+          <a href="https://colorhunt.co/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Página paleta de colores para css</li>
+          </a>
+          <a href="https://www.deepl.com/translator" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Página para traducir textos en diferentes lenguajes</li>
+          </a>
+          <a href="https://chat.openai.com/auth/login" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Página de inteligencia artificial para desarrollo</li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.youtube.com/@FaztTech/videos" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencias" class="experiencias seccion-clara">
+      <h2 class="seccion-titulo">Experiencia</h2>
+      <h3 class="seccion-descripcion">Estas son algunas de mis experiencias fuertes</h3>
+      <!-- Carrusel -->
+      <div id="experiencias-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="experiencia-imagen rounded-circle" src="./assets/img/html.png" alt="foto compañero 1">
+              <p class="experiencia-texto">Como estudiante he aprendido a manipular html a nivel de crear variedades en lo que es desarrollo web.</p>
+              <div class="experiencia-info">
+                <p class="cliente">HTML</p>
+                <p class="cargo">Desarrollar pagina web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="experiencia-imagen rounded-circle" src="./assets/img/css.png" alt="foto compañero 2">
+              <p class="experiencia-texto">Poseo un cierto rango de conocimientos de estilos de css, funciones y variedades de estilos, sigo aprendiendo para lograr un fuerte campo de conocimientos.</p>
+              <div class="experiencia-info">
+                <p class="cliente">CSS</p>
+                <p class="cargo">Plantilla de Diseño</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="experiencia-imagen rounded-circle" src="./assets/img/bootstrap.jpg" alt="foto compañero 3">
+              <p class="experiencia-texto">
+                Bootstrap me ha ayudado a crear muchas páginas y decorar los sitios de manera más sencilla y entretenida.</p>
+              <div class="experiencia-info">
+                <p class="cliente">BOOTSTRAP</p>
+                <p class="cargo">Crear estilos personalizados</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#experiencias-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#experiencias-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div> 
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¡Contáctame!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:jexurodrigo@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="./assets/img/icono-blanco.svg" alt="logo del portafolio">
+      <p class="footer-texto text-center">Aprendiendo Front End<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/cruzadojr" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jesus-rodrigo-179431223/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:jexurodrigo@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">
+        Creado por Jesús Rodrigo (2023) &#169;
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
